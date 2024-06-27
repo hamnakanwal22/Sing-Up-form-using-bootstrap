@@ -11,8 +11,58 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <section>
+        <div class="wrapper">
+            <div class="container">
+                <div class="col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 text-center">
+    <div class="logo">
+        <img src="images/logo.png" class="img-fluid" alt="logo" >
+    </div>
+    <form class="rounded bg-white shadow p-5">
+    <h3 class="text-dark fw-bolder fs-4 mb-2">Create Account</h3>
+    <div class="mb-2 text-muted fw-normal">
+       Already have an account <a href="#" class="fw-bolder  text-decoration-none text-primary">Sing in</a>
+    </div>
 
+    <div class="text-center text-muted mb-2 text-uppercase ">Or</div>
+    <a href="#" class="btn btn-light w-100 mb-4 login_width">
+        <img src="images/google-icon.svg" alt="">Sing in with google
+        </a>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingFirstName" placeholder="First Name">
+            <label for="floatingFirstName">First Name</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingLastName" placeholder="Last Name">
+            <label for="floatingLastName">Last Name</label>
+          </div>
+    <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Email address</label>
+      </div>
+      <div class="form-floating mb-3 ">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">Password</label>
+        <span class="password-info mt-2 ">
+            Use 8 or more chracters with mix of letters, numbers & symbols
+        </span>
+      </div>
+      <div class="form-floating mb-3 ">
+        <input type="password" class="form-control" id="floatingConfirmPassword" placeholder="Confirm Password">
+        <label for="floatingConfirmPassword">Confirm Password</label>
+      </div>
+      <div class="form-check d-flex aling-item-center">
+        <input type="checkbox" checked class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label ms-2" for="exampleCheck1 ">I Agree <a href="#">Terms and conditions</a>.</label>
+      </div>
+      <button type="submit" class="btn btn-primary w-100 my-4 submit_btn">Continue</button>
     
+    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
 </body>
